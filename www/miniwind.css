@@ -597,28 +597,20 @@ table {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   text-align: left;
-  tr {
-    td, th {
-      border-width: 1px;
-    }
-    td, th {
-      --tw-border-opacity: 1;
-      border-color: rgb(100 116 139 / var(--tw-border-opacity));
-    }
-    td, th {
-      padding-left: 0.5rem;
-      padding-right: 0.5rem;
-    }
-    td, th {
-      padding-top: 0.5rem;
-      padding-bottom: 0.5rem;
-    }
-    td, th {
-      &:first-child {
-        text-align: right;
-      }
-    }
-  }
+}
+
+table tr td, table tr th {
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(100 116 139 / var(--tw-border-opacity));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+table tr td:first-child, table tr th:first-child {
+  text-align: right;
 }
 
 .facebook {

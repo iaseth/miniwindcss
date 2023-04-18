@@ -21,17 +21,19 @@ h6, .h6, .p6 { @apply text-xs; }
 .H5, .P5 { @apply text-4xl; }
 .H6, .P6 { @apply text-3xl; }
 
+
 table {
 	@apply bg-white text-left;
-	tr {
-		td, th {
-			@apply px-2 py-2 border border-slate-500;
-			&:first-child {
-				@apply text-right;
-			}
-		}
-	}
 }
+
+table tr td, table tr th {
+		@apply px-2 py-2 border border-slate-500;
+}
+
+table tr td:first-child, table tr th:first-child {
+	@apply text-right;
+}
+
 
 .facebook {
 	background-color: #4267b2;

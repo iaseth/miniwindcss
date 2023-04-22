@@ -1,6 +1,6 @@
 {
   "name": "miniwindcss",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "",
   "main": "www/miniwind.css",
   "scripts": {
@@ -14,7 +14,7 @@
   ],
   "author": "iaseth",
   "homepage": "https://miniwind.netlify.app/",
-  "repository": "iaseth/miniwind",
+  "repository": "iaseth/miniwindcss",
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^10.4.14",

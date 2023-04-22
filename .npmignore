@@ -1,0 +1,6 @@
+
+src/
+.netlify/
+
+Makefile
+tailwind.config.js
